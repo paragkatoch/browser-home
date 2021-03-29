@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+}
+
+/*  
+ Feature.js 
+*/
+
+@font-face {
+	font-family: "Dancing-Script";
+	src: url("./fonts/webfontkit/dancingscript-variablefont_wght-webfont.woff")
+			format("woff"),
+		url("./fonts/webfontkit/dancingscript-variablefont_wght-webfont.woff2")
+			format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+.wish h1 {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #267dce;
+	padding: 35px 0px 0px 40px;
+	word-spacing: 5px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	font-family: "Dancing-Script";
+}
+.wish h1 span {
+	font-size: 50px;
+}
+
+/* 
+Background.js
+*/
+.background {
+	width: 100vw;
+	transition: background-image 2s ease-in-out;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
